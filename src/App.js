@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, {useEffect} from "react";
 import "./App.css";
 import Landing from "./components/Landing";
 import About from "./components/About";
@@ -8,17 +8,17 @@ import Portfolio from "./components/Portfolio";
 
 
 function App() {
-  return (
-    <div className="App">
-      <header>
-        <Landing />
-      </header>
-      <About />
-      <Services />
-      {/* <CodingSkills /> */}
-      <Portfolio />
-    </div>
-  );
+    return (
+        <div className="App">
+            <header>
+                <Landing/>
+            </header>
+            <About/>
+            <Services/>
+            <CodingSkills/>
+            <Portfolio/>
+        </div>
+    );
 }
 
 export default App;

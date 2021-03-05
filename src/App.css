@@ -368,6 +368,11 @@ li{
   margin: 1rem 0;
 }
 
+.portfolio-description h1:hover {
+  color: #0fbcf9;
+  transition: 0.5s;
+}
+
 .portfolio-description h6 {
   font-size: 1.5rem;
   text-transform: uppercase;

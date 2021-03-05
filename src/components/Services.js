@@ -14,7 +14,7 @@ const Services = () => {
           <Specialty
             name="Back End Web Development"
             description="Creating REST APIs and using OOP with Python, Java and Kotlin. Strong skills in database
-            management and querying with Postgres and using Git as the version control system of choice."
+            management and querying with PostgreSQL and using Git as the version control system of choice."
             icon="fas fa-code"
           />
           <Specialty
