@@ -5,11 +5,9 @@ import About from "./components/About";
 import Services from "./components/Services";
 import CodingSkills from "./components/CodingSkills";
 import Portfolio from "./components/Portfolio";
-import img from "./imgs/Correlation.JPG";
 
 
 function App() {
-  let imageName = require("./imgs/Correlation.JPG")
   return (
     <div className="App">
       <header>
@@ -19,7 +17,6 @@ function App() {
       <Services />
       {/* <CodingSkills /> */}
       <Portfolio />
-      <img src={img} alt=""/>
     </div>
   );
 }

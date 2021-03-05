@@ -320,7 +320,7 @@ li{
   top: -35px;
   right: 0;
   transform: translateX(50%);
-} */
+}
 
 .skill-percent::after {
   content: '';
@@ -330,7 +330,7 @@ li{
   background-color: #000;
   top: -16px;
   right: 0;
-  transform: translateX(50%) rotate(45def);
+  transform: translateX(50%) rotate(45deg);
   border-radius: 2px;
 }
 
