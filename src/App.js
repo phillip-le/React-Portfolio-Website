@@ -5,7 +5,7 @@ import About from "./components/About";
 import Services from "./components/Services";
 import CodingSkills from "./components/CodingSkills";
 import Portfolio from "./components/Portfolio";
-
+import Experience from "./components/Experience";
 
 function App() {
     return (
@@ -17,6 +17,7 @@ function App() {
             <Services/>
             <CodingSkills/>
             <Portfolio/>
+            <Experience />
         </div>
     );
 }
