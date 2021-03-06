@@ -62,14 +62,18 @@ img{
   margin-bottom: 1rem;
 }
 
-.section-heading h1::before,
-.section-heading h1::after {
-  content: '';
-  position: absolute;
-  bottom: -.5rem;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: rgba(255,255,255, 0.75);
+/*.section-heading h1::before,*/
+/*.section-heading h1::after {*/
+/*  content: '';*/
+/*  position: absolute;*/
+/*  bottom: -.5rem;*/
+/*  left: 50%;*/
+/*  transform: translateX(-50%);*/
+/*  background-color: rgba(255,255,255, 0.75);*/
+/*}*/
+
+.section-heading {
+  padding-bottom: 2rem;
 }
 
 .section-heading h1::before {
@@ -240,7 +244,7 @@ li{
 /* Areas of Interest */
 
 .specialties {
-  margin-top: 10rem;
+  margin-top: 1rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   grid-gap: 2.5rem;
@@ -283,7 +287,6 @@ li{
 .coding-skill {
   width: 100%;
   max-width: 600px;
-  /* padding: 0 0; */
   margin: 0 auto;
 }
 
@@ -352,10 +355,14 @@ li{
 }
 
 .portfolio-img img {
-  width: 99%;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /*padding: 10px;*/
 }
 .portfolio-img img:hover {
-  width: 100%;
+  width: 81%;
 }
 
 .portfolio-description {
