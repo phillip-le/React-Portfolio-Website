@@ -1,12 +1,14 @@
 import React from "react";
 import SectionHeading from "./SectionHeading";
 import SocialMedia from "./SocialMedia";
+import "aos/dist/aos.css";
+
 
 const About = () => {
   return (
     <section className="about" id="about">
       <div className="container">
-        <div className="about-details">
+        <div className="about-details" data-aos="fade-in" data-aos-delay="300">
           <SectionHeading mainHeading="About" subHeading="Myself" />
           <p>
             I am a developer passionate about technology that transforms the way

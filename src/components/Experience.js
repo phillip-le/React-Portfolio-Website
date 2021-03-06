@@ -10,7 +10,7 @@ const Experience = () => {
                     mainHeading="Experience"
                     subHeading="Past and current jobs"
                 />
-                <div className="timeline">
+                <div className="timeline" data-aos="fade-down" data-aos-delay="300">
                     <TimelineItem
                         timePeriod={"Feb 2021 - Present"}
                         title={"Back End Intern Developer at OpenMarkets Group"}

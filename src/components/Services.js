@@ -19,7 +19,7 @@ const Services = () => {
           />
           <Specialty
             name="Data Science"
-            description="Exploring data in Jupyter Notebooks through visualisation, 
+            description="From exploring data in Jupyter Notebooks through visualisation, to
             experimenting with a variety of machine learning models and 
             containerising the model for deployment into production."
             icon="fas fa-chart-bar"

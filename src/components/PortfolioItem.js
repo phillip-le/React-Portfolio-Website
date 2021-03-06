@@ -1,9 +1,10 @@
 import React from "react";
 
+
 const PortfolioItem = ({img, imgAlt, imgRight, link, area, title, description}) => {
     if (imgRight === "true") {
         return (
-            <div className="portfolio-item">
+            <div className="portfolio-item" data-aos="fade-right" data-aos-delay="300">
                 <PortfolioImg
                     img={img}
                     imgAlt={imgAlt}
@@ -19,7 +20,7 @@ const PortfolioItem = ({img, imgAlt, imgRight, link, area, title, description}) 
         );
     } else {
         return (
-            <div className="portfolio-item">
+            <div className="portfolio-item" data-aos="fade-left" data-aos-delay="600">
                 <PortfolioDesc
                     area={area}
                     link={link}

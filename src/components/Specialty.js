@@ -2,7 +2,7 @@ import React from "react";
 
 const Specialty = ({ name, description, icon }) => {
   return (
-    <div class="specialty">
+    <div class="specialty" data-aos="fade-in" data-aos-delay="300">
       <div class="icon-container">
         <i class={icon}></i>
       </div>
